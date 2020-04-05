@@ -3,7 +3,7 @@
     "suggest.timeout": 5000,
     "suggest.noselect": false,
     "suggest.detailField":"preview",
-    "suggest.snippetIndicator": " \uf52d",
+    "suggest.snippetIndicator": " \uf863",
     "suggest.triggerCompletionWait": 100,
     "suggest.echodocSupport": true,
     //diagnostic
@@ -34,6 +34,7 @@
     "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
     //python
     "python.autoComplete.addBrackets": true,
+    "python.setInterpreter": "/usr/bin/python",
     // eslint
     "eslint.filetypes": ["javascript", "javascript.jsx", "javascriptreact"],
     "eslint.autoFix": true,
@@ -43,6 +44,11 @@
       "command": "gopls",
       "rootPatterns": ["go.mod"],
       "filetypes": ["go"]
+        },
+    "rust": {
+      "command": "rust-analyzer",
+      "filetypes": ["rust"],
+      "rootPatterns": ["Cargo.toml"]
         }
     }
 }
