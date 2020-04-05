@@ -3,7 +3,19 @@ let g:coc_snippet_next = '<TAB>'
 let g:coc_snippet_prev = '<S-TAB>'
 let g:coc_status_error_sign = '•'
 let g:coc_status_warning_sign = '•'
-let g:coc_global_extensions =['coc-html','coc-snippets','coc-prettier','coc-emmet','coc-tsserver','coc-pairs','coc-json','coc-highlight','coc-git','coc-yaml','coc-gitignore']
+let g:coc_global_extensions =[
+            \ 'coc-html',
+            \'coc-snippets',
+            \'coc-prettier',
+            \'coc-emmet',
+            \'coc-tsserver',
+            \'coc-pairs',
+            \'coc-json',
+            \'coc-highlight',
+            \'coc-git',
+            \'coc-yaml',
+            \'coc-gitignore',
+            \'coc-python']
 
 augroup MyAutoCmd
   autocmd!
