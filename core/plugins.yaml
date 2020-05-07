@@ -305,3 +305,6 @@
 - repo: kana/vim-textobj-function
   on_map: { ox: <Plug> }
   hook_add: let g:textobj_function_no_default_key_mappings = 1
+
+# Themes
+- repo: morhetz/gruvbox
