@@ -66,14 +66,6 @@ function! s:load_buffet() abort
   endif
 endfunction
 
-function! s:load_startify() abort
-  if dein#tap('vim-startify')
-    nnoremap <silent> <Leader>os  :<C-u>Startify<CR>
-    if s:enable_whichkey
-      let g:which_key_map.o.s = 'open stratify'
-    endif
-  endif
-endfunction
 
 function! s:load_markdown_preview() abort
   if dein#tap('markdown-preview.nvim')
@@ -744,7 +736,7 @@ let s:plugins = {
   \ 'coc':'coc.nvim','clap':'vim-clap','vim_go':'vim-go','vim_delve':'vim-delve',
   \ 'vimagit':'vimagit','choosewin':'vim-choosewin','caw':'caw.vim','smoothie':'vim-smoothie',
   \ 'goyo':'goyo.vim','defx':'defx.nvim','quickrun':'vim-quickrun','easymotion':'vim-easymotion',
-  \ 'smartchr':'vim-smartchr','iron':'iron.nvim','sandwich':'vim-sandwich', 'startify':'vim-startify',
+  \ 'smartchr':'vim-smartchr','iron':'iron.nvim','sandwich':'vim-sandwich',
   \ 'fugitive': 'vim-fugitive', 'mundo':'vim-mundo', 'vista':'vista.vim','insertmap': 'insert',
   \ 'commandmap':'command','quietmap':'quiet','windowmap':'window','session':'session',
   \ 'toggle':'toggle','normalmap':'normal'
