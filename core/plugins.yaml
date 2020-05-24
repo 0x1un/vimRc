@@ -1,6 +1,8 @@
 # PackageManage{{{
 - repo: Shougo/dein.vim
   on_func: dein#
+
+- repo: wsdjeg/dein-ui.vim
 # }}}
 
 # Editor UI{{{
@@ -32,7 +34,8 @@
 - repo: Shougo/context_filetype.vim
   on_event: [ BufReadPre, BufNew ]
 
-- { repo: MTDL9/vim-log-highlighting, on_ft: log }
+# - { repo: MTDL9/vim-log-highlighting, on_ft: log }
+
 - repo: plasticboy/vim-markdown
   on_ft: markdown
   hook_add: |
@@ -253,9 +256,9 @@
 # }}}
 
 # Writing{{{
-- repo: junegunn/goyo.vim
-  on_cmd: Goyo
-  hook_source: source  $VIM_PATH/modules/module-goyo.vim
+# - repo: junegunn/goyo.vim
+#   on_cmd: Goyo
+#   hook_source: source  $VIM_PATH/modules/module-goyo.vim
 
 - repo: junegunn/Limelight.vim
   on_cmd: Limelight
