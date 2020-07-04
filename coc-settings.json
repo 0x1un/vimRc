@@ -1,0 +1,34 @@
+{
+    "rust-analyzer.cargo-watch.enable": false,
+    "rust-analyzer.serverPath": "/home/aumujun/.cargo/bin/rust-analyzer",
+    "suggest.triggerAfterInsertEnter": false,
+    "suggest.timeout": 5000,
+    "suggest.noselect": false,
+    "suggest.detailField":"preview",
+    "suggest.snippetIndicator": " \uf863",
+    "suggest.triggerCompletionWait": 100,
+    "suggest.echodocSupport": true,
+    //git
+    "git.enableGutters": true,
+    "git.branchCharacter":" branch",
+    "git.addGBlameToBufferVar": true,
+    "git.addGBlameToVirtualText": true,
+    "git.virtualTextPrefix": " ❯❯❯ ",
+    "git.addedSign.hlGroup": "GitGutterAdd",
+    "git.changedSign.hlGroup": "GitGutterChange",
+    "git.removedSign.hlGroup": "GitGutterDelete",
+    "git.topRemovedSign.hlGroup": "GitGutterDelete",
+    "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
+    "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+        },
+    "rust": {
+      "command": "rust-analyzer",
+      "filetypes": ["rust"],
+      "rootPatterns": ["Cargo.toml"]
+        }
+    }
+}
