@@ -1,6 +1,9 @@
 {
     "rust-analyzer.cargo-watch.enable": false,
     "rust-analyzer.serverPath": "/home/aumujun/.cargo/bin/rust-analyzer",
+    "diagnostic.errorSign": "●",
+    "diagnostic.warningSign": "●",
+    "diagnostic.displayByAle": true,
     "suggest.triggerAfterInsertEnter": false,
     "suggest.timeout": 5000,
     "suggest.noselect": false,
